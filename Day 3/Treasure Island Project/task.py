@@ -21,4 +21,22 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
+direction = int(input("left or right? "))
+if direction == "left":
+    choice2 = int(input("swim or wait?")
+elif direction == "right"
+else:
+    exit()
+    age = int(input("What is your age? "))
+    if age < 12:
+        bill = 5
+        print("Child tickets are $5.")
+    elif age <= 18:
+        bill = 7
+        print("Youth tickets are $7.")
+    else:
+        bill = 12
+        print("Adult tickets are $12.")
+
+
 print("Your mission is to find the treasure.")
