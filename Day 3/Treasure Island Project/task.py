@@ -24,6 +24,9 @@ print("Welcome to Treasure Island.")
 direction = int(input("left or right? "))
 if direction == "left":
     choice2 = int(input("swim or wait?")
+        if choice2 == "swim":
+            choice3 = int(input(""))
+        elif
 elif direction == "right"
 else:
     exit()
