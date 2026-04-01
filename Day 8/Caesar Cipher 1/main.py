@@ -8,18 +8,20 @@ shift = int(input("Type the shift number:\n"))
 
 
 # TODO-1: Create a function called 'encrypt()' that takes 'original_text' and 'shift_amount' as 2 inputs.
-def encrypt():
-    encrypted_text = ""
-    for char in text:
-        if char in alphabet:
-            encrypted_text = alphabet[alphabet.index(char) - shift]
-            print(encrypted_text)
-        else:
-            print(f"'{char}' is not a letter. It will be added to the encrypted text without being shifted.")
-encrypt()
-
 # TODO-2: Inside the 'encrypt()' function, shift each letter of the 'original_text' forwards in the alphabet
 #  by the shift amount and print the encrypted text.
+
+def encrypt(original_text, shift_amount):
+
+    for char in original_text:
+        if char in alphabet:
+            position = alphabet.index(char)
+            new_position = (position + shift_amount) % 26
+            new_char = alphabet[new_position]
+    print(f"here is the encoded result: '{new_char}'.")
+        else:
+            print(f"'{char}' is not a letter. It will be added to the encrypted text without being shifted.")
+encrypt("hello", 2)
 
 # TODO-4: What happens if you try to shift z forwards by 9? Can you fix the code?
 
