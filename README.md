@@ -10,7 +10,7 @@ Welcome to my **100 Days of Code** repository! This project serves as a daily lo
 ---
 
 ## 🛠️ Tech Stack & Tools
-* **Language:** Python 3.12
+* **Language:** Python 3
 * **Environment:** PyCharm
 * **Version Control:** Git & GitHub
 
